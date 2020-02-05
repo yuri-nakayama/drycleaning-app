@@ -1,0 +1,25 @@
+
+.services {
+  width: 100vw;
+  /* height: 80em; */
+  background-color: pink;
+  margin-bottom: 1em;
+}
+
+.services .contents-wrapper {
+  width: 100%;
+  height: calc((100vh - 5em) / 1.5);
+  min-height: 20em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.services .contents-wrapper img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  /* height: 50%; */
+  background-color: green;
+
+}

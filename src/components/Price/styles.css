@@ -1,0 +1,16 @@
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 30em;
+  background-color: pink;
+  margin-bottom: 1em;
+}
+
+.price .contents-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
