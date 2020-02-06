@@ -6,16 +6,14 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Landing from './components/Landing'
 import Location from './components/Location'
-import Price from './components/Price'
-import Service from './components/Service'
+import Info from './components/Info'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Landing />
-      <Service />
-      <Price />
+      <Info />
       <Location />
       <Footer />
     </div>

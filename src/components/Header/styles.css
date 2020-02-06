@@ -4,40 +4,42 @@
   left: 0;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
-  height: 5em;
-  background-color: yellow;
+  width: 90vw;
+  z-index: 2;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 3.5em;
+  background: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+.header h3 {
+  margin:0;
+}
+
+.brand  {
 }
 
 .icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5em;
-  height:5em;
-  background: salmon;
+  width: 3em;
+  height:3em;
+  background-color: salmon;
   border-radius: 1em;
 }
 
 i {
   object-fit: cover;
-  font-size: 3em;
+  font-size: 2em;
   filter: invert(100%);
 }
 
-/* .header .logo { */
-.header h1 {
-  /* width: 100%;
-  height: 100%; */
-  background-color: green;
-  font-size: 30px;
-  text-align: center;
-}
-
 .header .nav {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 5em;
   width: 35%;
-  min-width: 15em;
+  min-width: 10em;
 }
