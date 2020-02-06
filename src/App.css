@@ -13,6 +13,10 @@ a:hover {
   color: rgba(0,0,0,1);
 }
 
+.App {
+  margin-top: 3.5em;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;

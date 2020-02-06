@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './styles.css'
 import data from "./data"
+
+import { useLocation } from 'react-router-dom'
 
 const Service = () => {
 
@@ -18,7 +20,7 @@ const Service = () => {
                   <h2>{service.name}</h2>
                   <p>{service.description}</p>
                 </div>
-                <img src={service.image} alt={service.name} />
+                <img className="service-img"src={service.image} alt={service.name} />
               </div>
             )
           })

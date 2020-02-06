@@ -6,7 +6,7 @@ const Footer = () => {
       <div class="footer">
         <h3>Nicee DryCleaning!</h3>
         <p>Copyright © 2020  Nicee Dry Cleanin</p>
-        <a className="icon-container" href='#'>
+        <a className="icon-container" target="_blank" href='https://www.instagram.com/niceedrycleanco'>
             <i class="fab fa-instagram"></i>
         </a>
       </div>

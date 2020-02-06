@@ -1,6 +1,5 @@
 .greeting {
   position: relative;
-  margin-top: 3.5em;
   width: 100vw;
   min-height: 30em;
   height: calc(95vh - 3.5em);

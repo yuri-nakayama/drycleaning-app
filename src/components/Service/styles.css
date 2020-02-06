@@ -7,6 +7,7 @@
 }
 
 .services .contents-wrapper {
+  position: relative;
   width: 100%;
   height: calc((100vh - 5em) / 1.5);
   min-height: 20em;
@@ -14,12 +15,9 @@
   align-items: center;
 }
 
-
-.services .contents-wrapper img {
+.service-img {
   width: 60%;
   height: 100%;
   object-fit: cover;
-  /* height: 50%; */
-  background-color: green;
-
+  object-position: center;
 }
