@@ -16,9 +16,9 @@ import Landing from './components/Landing'
 import Location from './components/Location'
 import Info from './components/Info'
 import Service from './components/Service'
+import Notification from './components/Notification'
 
 function App() {
-  console.log(process.env.REACT_APP_TEST)
   return (
     <Router>
       <ScrollToTop />
@@ -37,6 +37,7 @@ function App() {
             <Location />
           </Route>
         </Switch>
+        <Notification notice="Hello world!" link="/landing"/>
         <Footer />
       </div>
     </Router>
