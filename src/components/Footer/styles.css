@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  /* height: 5em; */
+  background-color: yellow;
+}
+
+.footer p {
+
+  background-color: gray;
+  color: white;
+}
